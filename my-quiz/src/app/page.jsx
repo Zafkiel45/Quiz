@@ -1,12 +1,9 @@
-
+import Link from "next/link"
 
 export default function Home() {
-  
-
-
     return (
     <>
-      <div className="w-[50vw] flex flex-col gap-10 items-center">
+      <div className="w-[50vw] mt-[10%] flex flex-col gap-10 items-center">
         <div className="w-full">
           <h1 className="text-center font-medium text-4xl">Quiz Básico!</h1>
         </div>
@@ -18,9 +15,11 @@ export default function Home() {
             resulto será mostrado. Good Luck!
         </div>
         <div className="w-full flex justify-center items-center">
+          <Link href={`/question/question1`} >   
             <button className="bg-blue-500 w-fit py-3 active:relative active:bottom-[-2px] font-medium px-5 rounded-sm">
                 Começar o teste
             </button>
+          </Link>
         </div>
       </div>
     </>
