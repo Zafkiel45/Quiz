@@ -24,7 +24,7 @@ export default function Question1() {
     return (
         <div className='bg-zinc-800 w-[80vw] flex flex-col justify-center mt-10 gap-10 items-center h-fit p-8 rounded-md shadow-sm'>
             <Materia materia={`Matemática`} remaining_time={time} />
-            <Title title={'dois zero, dois quatro'} />
+            <Title title={'dois zeros, dois quatro'} />
             <div className='w-[80%] font-medium h-auto p-10 flex flex-wrap gap-5 bg-zinc-700 rounded-md shadow-sm items-center justify-center'>
                 <Button url={`/question/question10`} answer={WrongAdd} cor={`bg-red-400`} alternativa={`2024`} />
                 <Button url={`/question/question10`} answer={WrongAdd} cor={`bg-purple-400`} alternativa={`0044`} />
