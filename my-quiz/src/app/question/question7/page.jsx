@@ -23,13 +23,13 @@ export default function Question1() {
 
     return (
         <div className='bg-zinc-800 w-[80vw] flex flex-col justify-center mt-10 gap-10 items-center h-fit p-8 rounded-md shadow-sm'>
-            <Materia materia={`Matemática`} remaining_time={time} />
-            <Title title={'Qual é a forma correta da palavra composta que significa "água de rosas"?'} />
+            <Materia materia={`História`} remaining_time={time} />
+            <Title title={'Qual evento histórico desencadeou o período conhecido como a "Crise do Terceiro Século" no Império Romano?'} />
             <div className='w-[80%] font-medium h-auto p-10 flex flex-wrap gap-5 bg-zinc-700 rounded-md shadow-sm items-center justify-center'>
-                <Button url={`/question/question3`} answer={WrongAdd} cor={`bg-red-400`} alternativa={`Falo`} />
-                <Button url={`/question/question3`} answer={WrongAdd} cor={`bg-purple-400`} alternativa={`Falava`} />
-                <Button url={`/question/question3`} answer={CorrectAdd} cor={`bg-pink-400`} alternativa={` Falei`} />
-                <Button url={`/question/question3`} answer={WrongAdd} cor={`bg-blue-400`} alternativa={`Falará`} />
+                <Button url={`/question/question8`} answer={WrongAdd} cor={`bg-red-400`} alternativa={`A morte de Júlio César`} />
+                <Button url={`/question/question8`} answer={WrongAdd} cor={`bg-purple-400`} alternativa={`A erupção do Vesúvio e a destruição de Pompeia`} />
+                <Button url={`/question/question8`} answer={CorrectAdd} cor={`bg-pink-400`} alternativa={` A ascensão de Diocleciano como imperador`} />
+                <Button url={`/question/question8`} answer={WrongAdd} cor={`bg-blue-400`} alternativa={`A invasão dos hunos liderada por Átila`} />
             </div>
         </div>
     )

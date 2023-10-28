@@ -23,13 +23,13 @@ export default function Question1() {
 
     return (
         <div className='bg-zinc-800 w-[80vw] flex flex-col justify-center mt-10 gap-10 items-center h-fit p-8 rounded-md shadow-sm'>
-            <Materia materia={`Matemática`} remaining_time={time} />
-            <Title title={'Qual é a forma correta da palavra composta que significa "água de rosas"?'} />
+            <Materia materia={`Física`} remaining_time={time} />
+            <Title title={'Quem foi Albert Einstein?'} />
             <div className='w-[80%] font-medium h-auto p-10 flex flex-wrap gap-5 bg-zinc-700 rounded-md shadow-sm items-center justify-center'>
-                <Button url={`/question/question3`} answer={WrongAdd} cor={`bg-red-400`} alternativa={`Falo`} />
-                <Button url={`/question/question3`} answer={WrongAdd} cor={`bg-purple-400`} alternativa={`Falava`} />
-                <Button url={`/question/question3`} answer={CorrectAdd} cor={`bg-pink-400`} alternativa={` Falei`} />
-                <Button url={`/question/question3`} answer={WrongAdd} cor={`bg-blue-400`} alternativa={`Falará`} />
+                <Button url={`/question/question9`} answer={CorrectAdd} cor={`bg-red-400`} alternativa={`Um dos maiores físicos do século passado`} />
+                <Button url={`/question/question9`} answer={WrongAdd} cor={`bg-purple-400`} alternativa={`Um dos maiores físicos do século atual`} />
+                <Button url={`/question/question9`} answer={WrongAdd} cor={`bg-pink-400`} alternativa={`Um pedreiro`} />
+                <Button url={`/question/question9`} answer={WrongAdd} cor={`bg-blue-400`} alternativa={`Era um pseudonimo de Nikolas Tesla`} />
             </div>
         </div>
     )

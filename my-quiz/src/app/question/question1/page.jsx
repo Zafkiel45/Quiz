@@ -10,7 +10,7 @@ export default function Question1() {
 
     const router = useRouter()
     const { WrongAdd, CorrectAdd} = useContext(myQuestionContext)
-    const [time, setTime] = useState(30);
+    const [time, setTime] = useState(60);
     const timer = 1000
     setTimeout(() => {
         setTime(() => time - 1);
