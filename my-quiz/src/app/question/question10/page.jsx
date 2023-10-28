@@ -28,7 +28,7 @@ export default function Question1() {
             <div className='w-[80%] font-medium h-auto p-10 flex flex-wrap gap-5 bg-zinc-700 rounded-md shadow-sm items-center justify-center'>
                 <Button url={`/question/finally`} answer={WrongAdd} cor={`bg-red-400`} alternativa={`Albert Einstein`} />
                 <Button url={`/question/finally`} answer={WrongAdd} cor={`bg-purple-400`} alternativa={`Will Smith`} />
-                <Button url={`/question/finally`} answer={CorrectAdd} cor={`bg-pink-400`} alternativa={`Nikola Tesla`} />
+                <Button url={`/question/finally`} answer={CorrectAdd} cor={`bg-pink-400`} alternativa={`Nikolas Tesla`} />
                 <Button url={`/question/finally`} answer={WrongAdd} cor={`bg-blue-400`} alternativa={`Bolsonaro`} />
             </div>
         </div>
